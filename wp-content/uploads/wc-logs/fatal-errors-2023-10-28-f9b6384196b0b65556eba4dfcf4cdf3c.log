@@ -1,0 +1,54 @@
+2023-10-28T20:42:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\beaute\wp-includes\Requests\src\Transport\Curl.php on line 205
+
+2023-10-28T20:50:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class VamtamElementorBridge does not have a method "enqueue_theme_icons" in C:\xampp2\htdocs\beaute\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp2\htdocs\beaute\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp2\htdocs\beaute\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp2\htdocs\beaute\wp-content\plugins\elementor\includes\frontend.php(667): do_action('elementor/front...')
+#3 C:\xampp2\htdocs\beaute\wp-content\plugins\elementor-pro\modules\theme-builder\classes\locations-manager.php(138): Elementor\Frontend->enqueue_styles()
+#4 C:\xampp2\htdocs\beaute\wp-includes\class-wp-hook.php(310): ElementorPro\Modules\ThemeBuilder\Classes\Locations_Manager->enqueue_styles('')
+#5 C:\xampp2\htdocs\beaute\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp2\htdocs\beaute\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp2\htdocs\beaute\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#8 C:\xampp2\htdocs\beaute\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#9 C:\xampp2\htdocs\beaute\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#10 C:\xampp2\htdocs\beaute\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp2\htdocs\beaute\wp-includes\general-template.php(3053): do_action('wp_head')
+#12 C:\xampp2\htdocs\beaute\wp-content\themes\jolie\header.php(19): wp_head()
+#13 C:\xampp2\htdocs\beaute\wp-includes\template.php(785): require_once('C:\\xampp2\\htdoc...')
+#14 C:\xampp2\htdocs\beaute\wp-includes\template.php(720): load_template('C:\\xampp2\\htdoc...', true, Array)
+#15 C:\xampp2\htdocs\beaute\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#16 C:\xampp2\htdocs\beaute\wp-content\themes\jolie\single.php(8): get_header()
+#17 C:\xampp2\htdocs\beaute\wp-includes\template-loader.php(106): include('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\beaute\wp-blog-header.php(19): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\beaute\index.php(17): require('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\beaute\wp-includes\class-wp-hook.php on line 310
+
+2023-10-28T20:50:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class VamtamElementorBridge does not have a method "enqueue_theme_icons" in C:\xampp2\htdocs\beaute\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp2\htdocs\beaute\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp2\htdocs\beaute\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp2\htdocs\beaute\wp-content\plugins\elementor\includes\frontend.php(667): do_action('elementor/front...')
+#3 C:\xampp2\htdocs\beaute\wp-content\plugins\elementor-pro\modules\theme-builder\classes\locations-manager.php(138): Elementor\Frontend->enqueue_styles()
+#4 C:\xampp2\htdocs\beaute\wp-includes\class-wp-hook.php(310): ElementorPro\Modules\ThemeBuilder\Classes\Locations_Manager->enqueue_styles('')
+#5 C:\xampp2\htdocs\beaute\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp2\htdocs\beaute\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp2\htdocs\beaute\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#8 C:\xampp2\htdocs\beaute\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#9 C:\xampp2\htdocs\beaute\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#10 C:\xampp2\htdocs\beaute\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp2\htdocs\beaute\wp-includes\general-template.php(3053): do_action('wp_head')
+#12 C:\xampp2\htdocs\beaute\wp-content\themes\jolie\header.php(19): wp_head()
+#13 C:\xampp2\htdocs\beaute\wp-includes\template.php(785): require_once('C:\\xampp2\\htdoc...')
+#14 C:\xampp2\htdocs\beaute\wp-includes\template.php(720): load_template('C:\\xampp2\\htdoc...', true, Array)
+#15 C:\xampp2\htdocs\beaute\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#16 C:\xampp2\htdocs\beaute\wp-content\themes\jolie\single.php(8): get_header()
+#17 C:\xampp2\htdocs\beaute\wp-includes\template-loader.php(106): include('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\beaute\wp-blog-header.php(19): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\beaute\index.php(17): require('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\beaute\wp-includes\class-wp-hook.php on line 310
+
+2023-10-28T20:55:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\beaute\wp-includes\class-wpdb.php on line 2459
+
